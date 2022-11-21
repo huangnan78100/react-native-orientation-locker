@@ -83,17 +83,17 @@ v1.1.0 **BREAKING CHANGES**
  4. Add getAutoRotateState() for Android
  5. Add TypeScript definitions
 
-[[more]](https://github.com/wonday/react-native-orientation-locker/releases)
+[[more]](https://github.com/huangnan78100/react-native-orientation-locker/releases)
 </details>
 
 ### Notice
 
 1. RN 0.58 + Android target SDK 27 maybe cause 
 ```Issue: java.lang.IllegalStateException: Only fullscreen activities can request orientation``` problem, 
-see [[#55]](https://github.com/wonday/react-native-orientation-locker/issues/55) for a solution.
+see [[#55]](https://github.com/huangnan78100/react-native-orientation-locker/issues/55) for a solution.
 
 2. orientationDidChange will be delayed on iPads if we set upside down to true.
-Simply disable upside down for iPad and everything works like a charm ([[#78]](https://github.com/wonday/react-native-orientation-locker/issues/78) Thanks [truongluong1314520](https://github.com/truongluong1314520))
+Simply disable upside down for iPad and everything works like a charm ([[#78]](https://github.com/huangnan78100/react-native-orientation-locker/issues/78) Thanks [truongluong1314520](https://github.com/truongluong1314520))
 
 3. If you get the following build error on iOS: 
 ```ld: library not found for -lRCTOrientation-tvOS```
