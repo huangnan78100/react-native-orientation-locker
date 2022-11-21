@@ -6,4 +6,6 @@ interface OrientationListeners {
     void stop();
 
     void release();
+
+    void addListener();
 }

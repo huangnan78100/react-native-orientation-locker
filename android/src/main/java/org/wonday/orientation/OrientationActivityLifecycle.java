@@ -21,6 +21,10 @@ public class OrientationActivityLifecycle implements Application.ActivityLifecyc
         return instance;
     }
 
+    public void addListener() {
+        orientationListeners.addListener();
+    }
+
     private OrientationActivityLifecycle() {}
 
     public void registerListeners(OrientationListeners listener) {
